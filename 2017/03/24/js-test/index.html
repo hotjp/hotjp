@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="前端,javascript,nodejs,vue,web" />
+  <meta name="keywords" content="面试题," />
 
 
 
@@ -87,13 +87,31 @@
 
 
 
+<meta name="description" content="过完年，开年看的最多的就是新年前端面试吐槽，看到一个很有趣的题目，涉及到setTimeout和闭包的内容，拿出来和大家一起了解一下
+
+以下代码在执行后会输出什么
+123for (var i = 0; i &amp;lt; 5; i++) &amp;#123;  console.log(i);&amp;#125;
+如果需要延迟执行，增加setTimeout，会发生什么
+12345for (var i = 0; i &amp;lt">
 <meta property="og:type" content="article">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://notes.jiang7.net/2017/03/24/tags/index.html">
+<meta property="og:title" content="JS面试趣题">
+<meta property="og:url" content="http://notes.jiang7.net/2017/03/24/js-test/index.html">
 <meta property="og:site_name" content="细嗅蔷薇">
-<meta property="og:updated_time" content="2017-03-24T08:09:44.000Z">
+<meta property="og:description" content="过完年，开年看的最多的就是新年前端面试吐槽，看到一个很有趣的题目，涉及到setTimeout和闭包的内容，拿出来和大家一起了解一下
+
+以下代码在执行后会输出什么
+123for (var i = 0; i &amp;lt; 5; i++) &amp;#123;  console.log(i);&amp;#125;
+如果需要延迟执行，增加setTimeout，会发生什么
+12345for (var i = 0; i &amp;lt">
+<meta property="og:updated_time" content="2017-03-24T08:21:00.685Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
+<meta name="twitter:title" content="JS面试趣题">
+<meta name="twitter:description" content="过完年，开年看的最多的就是新年前端面试吐槽，看到一个很有趣的题目，涉及到setTimeout和闭包的内容，拿出来和大家一起了解一下
+
+以下代码在执行后会输出什么
+123for (var i = 0; i &amp;lt; 5; i++) &amp;#123;  console.log(i);&amp;#125;
+如果需要延迟执行，增加setTimeout，会发生什么
+12345for (var i = 0; i &amp;lt">
 
 
 
@@ -121,13 +139,13 @@
 
 
 
-  <link rel="canonical" href="http://notes.jiang7.net/2017/03/24/tags/"/>
+  <link rel="canonical" href="http://notes.jiang7.net/2017/03/24/js-test/"/>
 
 
 
 
 
-  <title> tags | 细嗅蔷薇 </title>
+  <title> JS面试趣题 | 细嗅蔷薇 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -266,7 +284,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://notes.jiang7.net/2017/03/24/tags/">
+    <link itemprop="mainEntityOfPage" href="http://notes.jiang7.net/2017/03/24/js-test/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="心有萌虎">
@@ -287,7 +305,7 @@
             
             
               
-                tags
+                JS面试趣题
               
             
           </h1>
@@ -302,7 +320,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-24T15:54:53+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-24T15:42:53+08:00">
                 2017-03-24
               </time>
             
@@ -312,6 +330,28 @@
             
           </span>
 
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/JavaScript/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -338,7 +378,18 @@
       
 
       
-        
+        <blockquote>
+<p>过完年，开年看的最多的就是新年前端面试吐槽，看到一个很有趣的题目，涉及到setTimeout和闭包的内容，拿出来和大家一起了解一下</p>
+</blockquote>
+<p>以下代码在执行后会输出什么</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">for (var i = 0; i &lt; 5; i++) &#123;</div><div class="line">  console.log(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>如果需要延迟执行，增加setTimeout，会发生什么</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">for (var i = 0; i &lt; 5; i++) &#123;</div><div class="line">  setTimeout(function() &#123;</div><div class="line">    console.log(i);</div><div class="line">  &#125;, 1000 * i);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>假如套上一个立即执行函数<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for (var i = 0; i &lt; 5; i++) &#123;</div><div class="line">  (function(i) &#123;</div><div class="line">    setTimeout(function() &#123;</div><div class="line">      console.log(i);</div><div class="line">    &#125;, i * 1000);</div><div class="line">  &#125;)(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>上例去掉小括号的i</p>
+<p>setTimeout的位置调整一下<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">for (var i = 0; i &lt; 5; i++) &#123;</div><div class="line">  (function() &#123;</div><div class="line">    setTimeout(function() &#123;</div><div class="line">      console.log(i);</div><div class="line">    &#125;, i * 1000);</div><div class="line">  &#125;)(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p>回到第一题<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">setTimeout(function()&#123;</div><div class="line">    console.log(0);</div><div class="line">&#125;,0);</div><div class="line"></div><div class="line">for (var i = 0; i &lt; 5; i++) &#123;</div><div class="line">  console.log(i);</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+
       
     </div>
 
@@ -365,6 +416,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/面试题/" rel="tag"># 面试题</a>
+          
+        </div>
+      
 
       
         
@@ -374,8 +431,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/03/24/about/" rel="next" title="about">
-                <i class="fa fa-chevron-left"></i> about
+              <a href="/2017/03/24/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
               </a>
             
           </div>
@@ -445,7 +502,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -462,6 +519,15 @@
             </div>
           
 
+          
+            
+            
+            <div class="site-state-item site-state-tags">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              
+            </div>
           
 
         </nav>
